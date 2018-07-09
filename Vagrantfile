@@ -32,7 +32,5 @@ Vagrant.configure(2) do |config|
   end
   config.vm.provider 'virtualbox' do |vbox|
     vbox.gui = false
-    vbox.name = name.to_s
-    vbox.linked_clone = true
   end
 end
